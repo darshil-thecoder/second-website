@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODY RESTAURANT</title>
+    <!-- <link rel="stylesheet" href="stylesheet2.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+        <style>
+            * {
+    margin: 0px;
+}
+
+.image{
+    max-width: 100%;
+}
+
+header {
+    background-image: url('img/background images/foody\ image.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.postcode {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS  */
+
+}
+
+.postcode h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 345%;
+}
+
+.postcode p {
+    margin-top: 10px;
+}
+
+.forms {
+    text-align: center;
+}
+
+.forms .inputs {
+    display: block;
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    height: 36px;
+    outline: none;
+}
+
+.forms .btn:hover {
+    cursor: pointer;
+}
+
+button {
+    height: 48px;
+    width: 128px;
+    margin-top: 10px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+}
+
+/* main */
+
+.box1 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 275px;
+    margin-right: 141px;
+}
+
+
+
+.box1 img {
+    width: 274px;
+
+}
+
+.box1 p {
+    display: inline-block;
+}
+
+.box2 {
+    /* border: 2px solid rgb(214, 15, 15); */
+    display: inline-block;
+    width: 287px;
+    /* margin-right: 32px;
+    margin-left: 82px; */
+    margin-right: 115px;
+    margin-left: 41px;
+}
+
+
+.box2 img {
+    width: 287px;
+    height: 355px;
+
+}
+
+.box2 p {
+    display: inline-block;
+}
+
+.box3 {
+    /* border: 2px solid rgb(18, 15, 211); */
+    display: inline-block;
+    width: 587px;
+    margin-left: 59px;
+    margin-top: 10px;
+}
+
+.box3 img {
+    height: 392px;
+}
+
+.box3 p {
+    display: inline-block;
+}
+
+
+        </style>
+</head>
+
+<body>
+    <header>
+        <div class="postcode">
+            <h1>WELCOME TO FOODY RESTAURANT</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quisquam! Rem, pariatur doloribus
+                aspernatur excepturi atque laboriosam autem. Labore, optio?</p>
+            <p>POSTCODE</p>
+            <form action="noaction.php" class="forms">
+                <input type="text" class="inputs" placeholder="enter your postcode here">
+
+                <button type="submit" class="btn">SUBMIT</button>
+
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="images">
+            <div class="box1">
+                <img class="image" src="img/background images/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg"
+                    alt="food image">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi beatae tempora vel in necessitatibus
+                    quam ipsa? Earum aperiam sapiente nostrum?</p>
+            </div>
+            <div class="box2">
+                <img class="image" src="img/background images/lidye-1Shk_PkNkNw-unsplash.jpg" alt="food image">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nihil consequatur ut et, nisi
+                    nostrum animi maiores. Esse, ducimus illum.</p>
+            </div>
+            <div class="box3">
+                <img class="image" src="img/background images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg" alt="">
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda eaque fuga beatae. Veritatis ut
+                    rerum molestias beatae eligendi exercitationem commodi.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
